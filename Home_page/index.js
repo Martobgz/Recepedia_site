@@ -10,5 +10,5 @@ function showMore() {
     }
   }
   
-  
+  // Ne e zadylvitelen koda(toj e za show more/less, kojto e premahnat)
   
