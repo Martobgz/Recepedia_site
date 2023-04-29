@@ -1,18 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
 html{
     font-size: 22px;
 }
 body{
-    background-color: #ffb836;
-    color: #000000;
+  
+    margin-top: 0;
+    background: linear-gradient(to bottom,rgb(236, 162, 2),rgb(240, 216, 4));
+    
 }
 
-a{
-    color: #17252A;
-}
 
-a:hover, a:active{
-  color: #0040ff;
-  }
 
 
 
@@ -35,9 +36,231 @@ h1 {
   }
 
 
-body {
-    cursor: url('https://ionicframework.com/img/finger.png'), auto;
-  }
+
 img{
     border-radius: 20px;
 }
+
+.div_title{
+  display: flex;
+  justify-content: center;
+  margin-top:20px;
+}
+.title{
+  font-size:95px;
+  color:white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.intro{
+  display:flex;
+  justify-content: center;
+  margin-top:8px;
+}
+.intro_text{
+  color:white;
+  font-size:35px;
+  font-family: 'Dancing Script', cursive;
+}
+.intro_text_u{
+  font-size: 42px;
+  color: white;
+}
+.main_text{
+  margin-top:40px;
+  color:white;
+  font-family: 'Comfortaa', cursive;
+}
+.question{
+  font-size:30px;
+}
+
+.banner{
+  position: fixed;
+  background-color: #000;
+
+  padding-left:1500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+header{
+  box-sizing:border-box;
+  margin:0;
+  margin-top: 5px;
+  padding:0;
+  
+  background-color:black;
+  display: flex;
+  
+  align-items: center;
+  padding:20px 10%;
+  border-radius: 10px;
+  
+}
+.home_nav{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:500;
+  font-size: 16px;
+  color:white;
+  background-color: black;
+  border:none;
+  text-decoration: none;
+  cursor:pointer;
+  display:inline-block;
+  padding:0px 40px;
+  padding-left:120px;
+  transition: border 0.15s;
+}
+.home_nav:hover{
+  border-color: white;
+}
+.predqstiq_nav{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:500;
+  font-size: 16px;
+  color:white;
+  background-color: black;
+  border:none;
+  text-decoration: none;
+  cursor:pointer;
+  display:inline-block;
+  padding:0px 50px;
+}
+.osnovni_nav{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:500;
+  font-size: 16px;
+  color:white;
+  background-color: black;
+  border:none;
+  text-decoration: none;
+  cursor: pointer;
+  display:inline-block;
+  padding:0px 20px;
+}
+.supi_nav{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:500;
+  font-size: 16px;
+  color:white;
+  background-color: black;
+  border:none;
+  text-decoration: none;
+  cursor: pointer;
+  display:inline-block;
+  padding:0px 50px;
+}
+.deserti_nav{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:500;
+  font-size: 16px;
+  color:white;
+  background-color: black;
+  border:none;
+  text-decoration: none;
+  cursor: pointer;
+  display:inline-block;
+  padding:0px 20px;
+}
+.nav_text{
+  color:rgb(236, 162, 2);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:500;
+  font-size: 50px;
+  margin-right: 10px;;
+
+}
+.predqstiq{
+  display: flex;
+  justify-content: center;
+  margin-top:40px;
+}
+.predqstiq_text{
+  color:white;
+  font-family:'Comfortaa', cursive; 
+  font-size:40px;
+  
+}
+.musaka_pic{
+  margin-top:0;
+  padding: 0;
+
+}
+.musaka_all{
+  display:flex;
+  margin-top:30px;
+}
+.musaka_text{
+  margin-top: 63px;
+  color:white;
+  font-family:'Comfortaa', cursive; 
+  font-size:34px;
+}
+.musaka_title{
+  color: white;
+  font-family:'Comfortaa', cursive; 
+  
+  font-size:33px;
+  text-decoration:none;
+  transition:0.3s;
+  
+}
+.musaka_title:hover{
+  color:black;
+}
+.jump_button{
+  background-color:black;
+  width:auto;
+  height:auto;
+  border-radius: 5px;
+  transition: 0.3s;
+  margin-left:45px;
+  margin-right:5px;
+}
+.jump_button:hover{
+  opacity:0.8;
+}
+.jump_text{
+  color:white;
+  text-decoration:none;
+  font-size:18px;
+}
+.about_button{
+  background-color:black;
+  width:auto;
+  height:auto;
+  border-radius: 5px;
+  transition: 0.3s;
+  margin-right:5px;
+}
+.about_button:hover{
+  opacity:0.8;
+}
+.about_text{
+  color:white;
+  text-decoration:none;
+  font-size:18px;
+}
+.mail_button{
+  background-color:black;
+  width:auto;
+  height:auto;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.mail_button:hover{
+  opacity:0.8;
+}
+.mail_text{
+  color:white;
+  text-decoration:none;
+  font-size:18px;
+}
+.buttons_end{
+  display:flex;
+  justify-content:center;
+}
+
+
+
