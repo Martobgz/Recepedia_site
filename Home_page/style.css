@@ -261,6 +261,172 @@ header{
   display:flex;
   justify-content:center;
 }
+.salati{
+  display:flex;
+  justify-content:center;
+}
+.salati_text{
+  color:white;
+  font-family:'Comfortaa', cursive; 
+  font-size:35px;
+}
+.cezar_all{
+  display:flex;
+  
+}.cezar_title{
+  margin-left:5px;
+  display:inline-block;
+  color:white;
+ 
+    color: white;
+    font-family:'Comfortaa', cursive; 
+    
+    font-size:33px;
+    text-decoration:none;
+    transition:0.3s;
+    cursor: pointer;
+  }
+  .cezar_title:hover{
+    color:black;
+}
+.cezar_pic{
+   cursor:pointer;
+  margin-top: 0;
+  padding: 0;
+}
+.cezar_text{
+  color: white;
+  margin-top:60px ;
+  font-size:34px;
+  font-family:'Comfortaa', cursive; 
+}
+
+.kapreze_all{ 
+  display:flex;
+  
+}.kapreze_title{
+  margin-left:5px;
+  display:inline-block;
+  color:white;
+ 
+    color: white;
+    font-family:'Comfortaa', cursive; 
+    
+    font-size:33px;
+    text-decoration:none;
+    transition:0.3s;
+    cursor: pointer;
+  }
+  .kapreze_title:hover{
+    color:black;
+}
+.kapreze_pic{
+   cursor:pointer;
+  margin-top: 0;
+  padding: 0;
+}
+.kapreze_text{
+  color: white;
+  margin-top:60px ;
+  font-size:30px;
+  font-family:'Comfortaa', cursive; 
+}
+
+.burata_all{ 
+  display:flex;
+  
+}.burata_title{
+  margin-left:5px;
+  display:inline-block;
+  color:white;
+ 
+    color: white;
+    font-family:'Comfortaa', cursive; 
+    
+    font-size:33px;
+    text-decoration:none;
+    transition:0.3s;
+    cursor: pointer;
+  }
+  .burata_title:hover{
+    color:black;
+}
+.burata_pic{
+   cursor:pointer;
+  margin-top: 0;
+  padding: 0;
+}
+.burata_text{
+  color: white;
+  margin-top:60px ;
+  font-size:34px;
+  font-family:'Comfortaa', cursive; 
+}
+
+.nisoaz_all{ 
+  display:flex;
+  
+}.nisoaz_title{
+  margin-left:5px;
+  display:inline-block;
+  color:white;
+ 
+    color: white;
+    font-family:'Comfortaa', cursive; 
+    
+    font-size:33px;
+    text-decoration:none;
+    transition:0.3s;
+    cursor: pointer;
+  }
+  .nisoaz_title:hover{
+    color:black;
+}
+.nisoaz_pic{
+   cursor:pointer;
+  margin-top: 0;
+  padding: 0;
+}
+.nisoaz_text{
+  color: white;
+  margin-top:60px ;
+  font-size:34px;
+  font-family:'Comfortaa', cursive; 
+}
+
+.uoldorf_all{ 
+  display:flex;
+  
+}.uoldorf_title{
+  margin-left:5px;
+  display:inline-block;
+  color:white;
+ 
+    color: white;
+    font-family:'Comfortaa', cursive; 
+    
+    font-size:33px;
+    text-decoration:none;
+    transition:0.3s;
+    cursor: pointer;
+  }
+  .uoldorf_title:hover{
+    color:black;
+}
+.uoldorf_pic{
+   cursor:pointer;
+  margin-top: 0;
+  padding: 0;
+}
+.uoldorf_text{
+  color: white;
+  margin-top:60px ;
+  font-size:34px;
+  font-family:'Comfortaa', cursive; 
+}
+
+
+
 
 
 
