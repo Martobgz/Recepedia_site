@@ -1,0 +1,43 @@
+html{
+    font-size: 22px;
+}
+body{
+    background-color: #ffb836;
+    color: #000000;
+}
+
+a{
+    color: #17252A;
+}
+
+a:hover, a:active{
+  color: #006919;
+  }
+
+
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 110px;
+  background: black;
+  color: white;
+  margin-top: 0;
+  font-family: Arial;
+  padding: 20px;
+}
+
+.content p:not(:first-child) {
+    display: none;
+  }
+  .content.show-more p:not(:first-child) {
+    display: block;
+  }
+
+
+body {
+    cursor: url('https://ionicframework.com/img/finger.png'), auto;
+  }
+img{
+    border-radius: 20px;
+}
