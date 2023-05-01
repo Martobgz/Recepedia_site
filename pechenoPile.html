@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Рецепта за мусака</title>
+	<link rel="stylesheet" href="pechenoPile.css">
+	<script>
+		function showMore() {
+			var content = document.getElementsByClassName("content")[0];
+			var button = content.getElementsByTagName("button")[0];
+			if (content.classList.contains("show-more")) {
+				content.classList.remove("show-more");
+				button.innerHTML = "Show More";
+			} else {
+				content.classList.add("show-more");
+				button.innerHTML = "Show Less";
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Рецепта за Печено пиле</h1>
+	<img src="pechenoPile.jpg" alt="pile">
+	<div class="ingredients">
+		<h2>Начин на приготвяне:</h2>
+		<div class="content">
+		<div class="instructions">
+			<div class="content">
+				<h4>Съставки</h4>
+					<p>Цяло пиле 1бр.</p>
+					<p>1кг. картофи</p>
+					<p>олио 4 с.л.</p>
+					<p>2ч.л. червен пипер</p>
+					<p>масло 50гр</p>
+				<h4>Метод на приготвяне</h4>
+						<p>Приготвя се саламура като се смесят посочените съставки. Пилето се почиства и слага в саламурата. Оставя се за една вечер, а може и повече да се маринова.</p>
+						<p>След като е отлежало в марината се изважда и подсушава. Намазва се с половината от маслото и поръсва от всички страни с половината червен пипер</p>
+						<p>Картофите се обелват и режат на четвъртинки. Слагат се в намазана с олио тава и посоляват с 1 ч.л. сол. Разбъркват се</p>
+                        <p>Върху тях се слага пилето с гърба нагоре. Слага се в предварително загрята фурна да се пече на 180С. за 20 минути.</p>
+                        <p>Изважда се и обръща за да се изпекат и гърдите. Намазват се с останалото масло и поръсват с червен пипер.</p>
+                        <p>Пилето се слага обратно във фурната и се пече още 20-25 минути на същата температура.</p>
+				<button onclick="showMore()">Show more</button>
+			 </div>
+    </div>
+
+</body>
