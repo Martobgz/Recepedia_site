@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Рецепта за спагети карбонара</title>
+	<link rel="stylesheet" href="karbonara.css">
+	<script>
+		function showMore() {
+			var content = document.getElementsByClassName("content")[0];
+			var button = content.getElementsByTagName("button")[0];
+			if (content.classList.contains("show-more")) {
+				content.classList.remove("show-more");
+				button.innerHTML = "Show More";
+			} else {
+				content.classList.add("show-more");
+				button.innerHTML = "Show Less";
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Рецепта за спагети карбонара</h1>
+	<img src="karbonara.jpg" alt="karbonara">
+	<div class="ingredients">
+		<h2>Начин на приготвяне:</h2>
+		<div class="content">
+		<div class="instructions">
+			<div class="content">
+				<h4>Съставки</h4>
+					<p>сол</p>
+                    <p>2 скилидки чесън</p>
+                    <p>черен пипер</p>
+                    <p>40 мл. зехтин</p>
+                    <p>2 жълтъка</p>
+                    <p>200 мл. течна сметана</p>
+                    <p>150гр. пармезан</p>
+                    <p>300 гр. пушен бекон</p>
+                    <p>1 пакет спагети</p>
+				<h4>Метод на приготвяне</h4>
+                    <p>Слагаме спагетите да врят в подходяща тенджера, така че целите да бъдат покрити с вода. Във водата слагаме 1 ч.л. сол и 1 с.л. зехтин.</p>
+                    <p>Нарязваме бекона на малки парченца и го запържваме в останалия зехтин заедно с нарязания на ситно чесън, докато започне да се свива. </p>
+                    <p>Прибавяме сметаната и след като заври намаляваме на слаб огън, задушаваме още няколко минути, докато сметаната започне да променя цвета си от бял на леко жълт.</p>
+                    <p>След това добавяме жълтъците.</p>
+                    <p>Готвим още 2 минути. Сваляме от котлона и добавяме малко вода от спагетите към соса, за да не става много гъст. След това добавяме малко черен пипер на вкус.</p>
+                    <p>Сварените спагети разбъркваме със соса, поръсваме с малко пармезан и сервираме горещи.</p>
+				<button onclick="showMore()">Show more</button>
+			 </div>
+    </div>
+
+</body>
