@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Рецепта за печена сьомга</title>
+	<link rel="stylesheet" href="siomga.css">
+	<script>
+		function showMore() {
+			var content = document.getElementsByClassName("content")[0];
+			var button = content.getElementsByTagName("button")[0];
+			if (content.classList.contains("show-more")) {
+				content.classList.remove("show-more");
+				button.innerHTML = "Show More";
+			} else {
+				content.classList.add("show-more");
+				button.innerHTML = "Show Less";
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Рецепта за печена сьомга</h1>
+	<img src="siomga.jpg" alt="pile">
+	<div class="ingredients">
+		<h2>Начин на приготвяне:</h2>
+		<div class="content">
+		<div class="instructions">
+			<div class="content">
+				<h4>Съставки</h4>
+					<p>700-800 гр. филе или котлети от сьомга
+                        <br>
+                        1 лимон
+                        <br>
+                        1 кафена чаша бяло вино
+                        <br> 
+                        сол
+                        <br>
+                         черен пипер
+                        <br> 
+                        зехтин
+                    </p>
+				<h4>Метод на приготвяне</h4>
+						<p>Осоляваме филетата, поръсваме с черен пипер. В тавичка нареждаме сьомгата върху хартията за печене. Поливаме със зехтина и виното, нареждаме лимоновите резени върху и около рибата. Печем на 180-200 градуса около 30 мин. За гарнитура сервираме с картофено пюре или зелена салата. Препоръчвам ястието да се консумира с бяло вино. Добър апетит!</p>
+				<button onclick="showMore()">Show more</button>
+			 </div>
+    </div>
+
+</body>
