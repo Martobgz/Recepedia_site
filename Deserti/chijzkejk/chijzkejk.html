@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Рецепта за Чийзкейк</title>
+	<link rel="stylesheet" href="chijzkejk.css">
+	<script>
+		function showMore() {
+			var content = document.getElementsByClassName("content")[0];
+			var button = content.getElementsByTagName("button")[0];
+			if (content.classList.contains("show-more")) {
+				content.classList.remove("show-more");
+				button.innerHTML = "Show More";
+			} else {
+				content.classList.add("show-more");
+				button.innerHTML = "Show Less";
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Рецепта за Чийзкейк</h1>
+	<img src="images/cheesecake-sladko-borovinki.webp" alt="There might be a problem with the image please try again later.">
+	<div class="ingredients">
+		<h2>Начин на приготвяне:</h2>
+		<div class="content">
+		<div class="instructions">
+			<div class="content">
+				<h3>Съставки</h3>
+					<p>бисквити - 400 г</p>
+					<p>маскарпоне - 250 </p>
+					<p>крема сирене - 450 ги</p>
+					<p>сметана - 400 мл течна сладкарска</p>
+					<p>захар - 150 г</p>
+					<p>желатин - 6 г</p>
+					<p>сладко - 1 бурканче</p>
+					<p>масло - 120 г</p>
+				<h3>Метод на приготвяне</h3>
+						<p>Намачкайте или смелете едро бисквитите.</p>
+						<p>Разтопете маслото и го сипете при бисквитите. Омесете тесто и го разстелете във форма за торта..</p>
+						<p>Разбийте захарта, маскарпонето с крема сиренето и постепенно добавете разбитата сметана.</p>
+						<p>Пригответе желатина по указание на опаковката - набъбва в студена вода, след това се разтопява н водна бана, без да завира, и го добавете към сместа.</p>
+                        <p>Разбъркайте внимателно и изсипете върху блата. Приберете тортата в хладилника за една нощ..</p>
+                        <p>На другият ден извадете чийзкейка от формата и намажете със сладкото.</p>
+				<button onclick="showMore()">Show more</button>
+			 </div>
+    </div>
+
+</body>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Рецепта за салата Нисоказ</title>
+	<link rel="stylesheet" href="nisoaz.css">
+	<script>
+		function showMore() {
+			var content = document.getElementsByClassName("content")[0];
+			var button = content.getElementsByTagName("button")[0];
+			if (content.classList.contains("show-more")) {
+				content.classList.remove("show-more");
+				button.innerHTML = "Show More";
+			} else {
+				content.classList.add("show-more");
+				button.innerHTML = "Show Less";
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Рецепта за салата Нисоказ</h1>
+	<img src="images/1140x650.jpg" alt="There might be a problem with the image please try again later.">
+	<div class="ingredients">
+		<h2>Начин на приготвяне:</h2>
+		<div class="content">
+		<div class="instructions">
+			<div class="content">
+				<h3>Съставки</h3>
+					<p>риба тон - 1 консерва филе</p>
+					<p>картофи - 500 г</p>
+					<p>домати - 2 броя, по-големи</p>
+					<p>рукола - няколко стръкчета</p>
+					<p>зелен фасул - 150 - 200 г пресен или замразен</p>
+					<p>маслини - 100 г нисоаз или др.</p>
+					<p>каперси - 2 супени лъжици</p>
+					<p>магданоз - 4 стръка пресен</p>
+					<p>горчица - 1 ч.л. дижонска</p>
+					<p>лимонов сок - 2 с.л.</p>
+					<p>оцет - 1 ч.л. винен</p>
+					<p>зехтин - 50 мл</p>
+					<p>сол</p>
+					<p>черен пипер</p>
+				<h3>Метод на приготвяне</h3>
+						<p>Сварете картофите във вода със сол, без да ги преварявате, и бланширайте зеления боб.</p>
+						<p>Смесете ги в купа и добавете нарязаните домати и стръкчета рукола. Натрошете леко филето от риба тон отгоре.</p>
+						<p>Смелете или стрийте в хаванче обезкостените маслини, каперсите, магданоза с лимонови сок, горчицата, оцета и зехтина за френската салата.</p>
+						<p>Объркайте салатата Нисоаз с този дресинг и овкусете със сол и черен пипер.</p>
+						
+				<button onclick="showMore()">Show more</button>
+			 </div>
+    </div>
+
+</body>
