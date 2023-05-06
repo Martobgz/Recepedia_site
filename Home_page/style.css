@@ -102,7 +102,7 @@ header{
 .home_nav{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight:500;
-  font-size: 16px;
+  font-size: 20px;
   color:white;
   background-color: black;
   border:none;
@@ -119,7 +119,7 @@ header{
 .predqstiq_nav{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight:500;
-  font-size: 16px;
+  font-size:  20px;
   color:white;
   background-color: black;
   border:none;
@@ -131,7 +131,7 @@ header{
 .osnovni_nav{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight:500;
-  font-size: 16px;
+  font-size: 20px;
   color:white;
   background-color: black;
   border:none;
@@ -143,7 +143,7 @@ header{
 .supi_nav{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight:500;
-  font-size: 16px;
+  font-size:20px;
   color:white;
   background-color: black;
   border:none;
