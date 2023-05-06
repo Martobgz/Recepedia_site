@@ -11,6 +11,7 @@ body{
     margin-top: 0;
     background: linear-gradient(to bottom,rgb(236, 162, 2),rgb(240, 216, 4));
     
+    
 }
 
 
@@ -426,7 +427,320 @@ header{
 }
 
 
+.panzanela_all{ 
+  display:flex;
+  
+}.panzanela_title{
+  margin-left:5px;
+  display:inline-block;
+  color:white;
+ 
+    color: white;
+    font-family:'Comfortaa', cursive; 
+    
+    font-size:33px;
+    text-decoration:none;
+    transition:0.3s;
+    cursor: pointer;
+  }
+  .panzanela_title:hover{
+    color:black;
+}
+.panzanela_pic{
+   cursor:pointer;
+  margin-top: 0;
+  padding: 0;
+}
+.panzanela_text{
+  color: white;
+  margin-top:60px ;
+  font-size:34px;
+  font-family:'Comfortaa', cursive; 
+}
 
 
 
 
+
+.shopska_all{ 
+  display:flex;
+  
+}.shopska_title{
+  margin-left:5px;
+  display:inline-block;
+  color:white;
+ 
+    color: white;
+    font-family:'Comfortaa', cursive; 
+    
+    font-size:33px;
+    text-decoration:none;
+    transition:0.3s;
+    cursor: pointer;
+  }
+  .shopska_title:hover{
+    color:black;
+}
+.shopska_pic{
+   cursor:pointer;
+  margin-top: 0;
+  padding: 0;
+}
+.shopska_text{
+  color: white;
+  margin-top:60px ;
+  font-size:31px;
+  font-family:'Comfortaa', cursive; 
+}
+
+
+
+
+.ovcharska_all{ 
+  display:flex;
+  
+}.ovcharska_title{
+  margin-left:5px;
+  display:inline-block;
+  color:white;
+ 
+    color: white;
+    font-family:'Comfortaa', cursive; 
+    
+    font-size:33px;
+    text-decoration:none;
+    transition:0.3s;
+    cursor: pointer;
+  }
+  .ovcharska_title:hover{
+    color:black;
+}
+.ovcharska_pic{
+   cursor:pointer;
+  margin-top: 0;
+  padding: 0;
+}
+.ovcharska_text{
+  color: white;
+  margin-top:60px ;
+  font-size:29px;
+  font-family:'Comfortaa', cursive; 
+}
+
+
+
+.grycka_all{ 
+  display:flex;
+  
+}.grycka_title{
+  margin-left:5px;
+  display:inline-block;
+  color:white;
+ 
+    color: white;
+    font-family:'Comfortaa', cursive; 
+    
+    font-size:33px;
+    text-decoration:none;
+    transition:0.3s;
+    cursor: pointer;
+  }
+  .grycka_title:hover{
+    color:black;
+}
+.grycka_pic{
+   cursor:pointer;
+  margin-top: 0;
+  padding: 0;
+}
+.grycka_text{
+  color: white;
+  margin-top:60px ;
+  font-size:27px;
+  font-family:'Comfortaa', cursive; 
+}
+.morski_darowe{
+  display:flex;
+  justify-content:center;
+}
+.morski_darowe_text{
+  color:white;
+  font-family:'Comfortaa', cursive; 
+  font-size:35px;
+}
+
+
+.syomga_all{ 
+  display:flex;
+  
+}.syomga_title{
+  margin-left:5px;
+  display:inline-block;
+  color:white;
+ 
+    color: white;
+    font-family:'Comfortaa', cursive; 
+    
+    font-size:33px;
+    text-decoration:none;
+    transition:0.3s;
+    cursor: pointer;
+  }
+  .syomga_title:hover{
+    color:black;
+}
+.syomga_pic{
+   cursor:pointer;
+  margin-top: 0;
+  padding: 0;
+}
+.syomga_text{
+  color: white;
+  margin-top:60px ;
+  font-size:30px;
+  font-family:'Comfortaa', cursive; 
+}
+
+.cipura_all{ 
+  display:flex;
+  
+}.cipura_title{
+  margin-left:5px;
+  display:inline-block;
+  color:white;
+ 
+    color: white;
+    font-family:'Comfortaa', cursive; 
+    
+    font-size:33px;
+    text-decoration:none;
+    transition:0.3s;
+    cursor: pointer;
+  }
+  .cipura_title:hover{
+    color:black;
+}
+.cipura_pic{
+   cursor:pointer;
+  margin-top: 0;
+  padding: 0;
+}
+.cipura_text{
+  color: white;
+  margin-top:60px ;
+  font-size:30px;
+  font-family:'Comfortaa', cursive; 
+}
+
+
+.morski_all{ 
+  display:flex;
+  
+}.morski_title{
+  margin-left:5px;
+  display:inline-block;
+  color:white;
+ 
+    color: white;
+    font-family:'Comfortaa', cursive; 
+    
+    font-size:33px;
+    text-decoration:none;
+    transition:0.3s;
+    cursor: pointer;
+  }
+  .morski_title:hover{
+    color:black;
+}
+.morski_pic{
+   cursor:pointer;
+  margin-top: 0;
+  padding: 0;
+}
+.morski_text{
+  color: white;
+  margin-top:60px ;
+  font-size:30px;
+  font-family:'Comfortaa', cursive; 
+}
+.osnovno{
+  display:flex;
+  justify-content:center;
+}
+.osnovno_text{
+  color:white;
+  font-family:"Comfortaa",cursive;
+  font-size:35px;
+}
+
+
+.osnovni_all{ 
+  display:flex;
+  
+}.osnovni_title{
+  margin-left:5px;
+  display:inline-block;
+  color:white;
+ 
+    color: white;
+    font-family:'Comfortaa', cursive; 
+    
+    font-size:33px;
+    text-decoration:none;
+    transition:0.3s;
+    cursor: pointer;
+  }
+  .osnovni_title:hover{
+    color:black;
+}
+.osnovni_pic{
+   cursor:pointer;
+  margin-top: 0;
+  padding: 0;
+}
+.osnovni_text{
+  color: white;
+  margin-top:60px ;
+  font-size:30px;
+  font-family:'Comfortaa', cursive; 
+}
+.deserti{
+  display:flex;
+  justify-content:center;
+}
+.deserti_text_title{
+  color:white;
+  font-family:"Comfortaa",cursive;
+  font-size:35px;
+}
+
+.deserti_all{ 
+  display:flex;
+  
+}.deserti_text_title{
+  margin-left:5px;
+  display:inline-block;
+  color:white;
+ 
+    color: white;
+    font-family:'Comfortaa', cursive; 
+    
+    font-size:33px;
+    text-decoration:none;
+    transition:0.3s;
+    cursor: pointer;
+  }
+  .deserti_title:hover{
+    color:black;
+}
+.deserti_pic{
+   cursor:pointer;
+  margin-top: 0;
+  padding: 0;
+}
+.deserti_text{
+  color: white;
+  margin-top:60px ;
+  font-size:30px;
+  font-family:'Comfortaa', cursive; 
+}
