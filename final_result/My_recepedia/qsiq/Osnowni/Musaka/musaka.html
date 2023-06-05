@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Рецепта за мусака</title>
+	<link rel="stylesheet" href="musaka.css">
+	<script>
+		function showMore() {
+			var content = document.getElementsByClassName("content")[0];
+			var button = content.getElementsByTagName("button")[0];
+			if (content.classList.contains("show-more")) {
+				content.classList.remove("show-more");
+				button.innerHTML = "Show More";
+			} else {
+				content.classList.add("show-more");
+				button.innerHTML = "Show Less";
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Рецепта за мусака</h1>
+	<img src="images/musaka.jpg" alt="Moussaka">
+	<div class="ingredients">
+		<h2>Начин на приготвяне:</h2>
+		<div class="content">
+		<div class="instructions">
+			<div class="content">
+				<h4>Съставки</h4>
+					<p>кайма 1кг.</p>
+					<p>kартофи 500гр.</p>
+					<p>1 глава лук</p>
+					<p>домати 2 броя</p>
+					<p>5 стръка магданоз</p>
+					<p>1 ч. л. червен пипер</p>
+					<p>1/2 ч. л. черен пипе</p>
+					<p>1 ч. л. чубрица</p>
+					<p>1 ч. л. джоджен</p>
+					<p>1 с. л. олио</p>
+					<p>сол на вкус</p>
+					<p>2 яйца</p>
+					<p>200гр. кисело мляко</p>
+					<p>сол на вкус</p>
+					<p>1 сода за хляб</p>
+				<h4>Метод на приготвяне</h4>
+						<p>Картофите се измиват, обелват се и се нарязват на малки кубчета.</p>
+						<p>Лукът се нарязва на ситни кубчета и се задушава в олиото, докато омекне.</p>
+						<p>Прибавя се каймата и се пържи, до златисто.</p>
+						<p>Накрая се прибавят настърганите домати, ситно нарязаният магданоз и подправките, и се оставя да къкри още няколко минути.</p>
+						<p>Сместа се сипва към картофите и всичко се прехвърля в тавичка. Залива се с вода до нивото на картофите и се пече във фурна, докато течността изври.</p>
+						<p>Накрая се залива с разбитите яйца, кисело мляко, содата и солта, и се запича още 10-15 минути, докато заливката придобие златист загар.</p>
+				<button onclick="showMore()">Show more</button>
+			 </div>
+    </div>
+
+</body>

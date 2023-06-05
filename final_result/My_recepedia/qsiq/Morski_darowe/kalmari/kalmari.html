@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Рецепта за Панирани калмари</title>
+	<link rel="stylesheet" href="kalmari.css">
+	<script>
+		function showMore() {
+			var content = document.getElementsByClassName("content")[0];
+			var button = content.getElementsByTagName("button")[0];
+			if (content.classList.contains("show-more")) {
+				content.classList.remove("show-more");
+				button.innerHTML = "Show More";
+			} else {
+				content.classList.add("show-more");
+				button.innerHTML = "Show Less";
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Рецепта за Панирани калмари</h1>
+	<img src="fried-squid.webp" alt="There might be an error pls try again later!">
+	<div class="ingredients">
+		<h2>Начин на приготвяне:</h2>
+		<div class="content">
+		<div class="instructions">
+			<div class="content">
+				<h4>Съставки</h4>
+					<p>
+                        <br>
+                        калмари - 1 кг изчистени
+                        <br>
+                        галета - 4 с.л.
+                        <br>
+                        брашно - 2 с.л.
+                        <br>
+                        яйца - 2 бр.
+                        <br>
+                        черен пипер
+                        <br>
+                        мащерка - 1 щипка
+                        <br>
+                        черен пипер
+                        <br>
+                        олио
+                        <br>
+                        сол
+
+                    </p>
+				<h4>Метод на приготвяне</h4>
+						<p>Сложете почистените калмари във вряща вода. След 5 минути ги извадете и обелете кожата им.</p>
+                        <p>Нарежете ги с кухненска ножица на кръгове с дебелина около 1 см.</p>
+                        <p>Варете ги в подсолена вода около 30 минути, докато месото им омекне напълно. Оставете ги в гевгир, за да се отцедят добре от водата.</p>
+                        <p>Всеки калмар се потапя последователно в брашното, смесено с черен пипер и мащерката, след това в разбитите и посолени яйца, в галета и накрая пак в яйцата.</p>
+                        <p>Пържете ги в загрято олио до златисто.</p>
+				<button onclick="showMore()">Show more</button>
+			 </div>
+    </div>
+
+</body>

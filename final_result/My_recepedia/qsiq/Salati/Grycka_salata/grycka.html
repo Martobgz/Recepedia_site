@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Рецепта за Гръцка салата</title>
+	<link rel="stylesheet" href="grycka.css">
+	<script>
+		function showMore() {
+			var content = document.getElementsByClassName("content")[0];
+			var button = content.getElementsByTagName("button")[0];
+			if (content.classList.contains("show-more")) {
+				content.classList.remove("show-more");
+				button.innerHTML = "Show More";
+			} else {
+				content.classList.add("show-more");
+				button.innerHTML = "Show Less";
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Рецепта за Гръцка салата</h1>
+	<img src="IMG_0300.jpg" alt="There might be an error pls try again later!">
+	<div class="ingredients">
+		<h2>Начин на приготвяне:</h2>
+		<div class="content">
+		<div class="instructions">
+			<div class="content">
+				<h4>Съставки</h4>
+					<p><b>Съставки:</b>
+                        <br>
+                        домати - 2 - 3 бр.
+                        <br>
+                        червен лук - 1 глава
+                        <br>
+                        краставици - 1 бр.
+                        <br>
+                        чушки - 1 бр. зелена
+                        <br>
+                        гръцки маслини - 10 - 12 бр. каламата
+                        <br>
+                        сирене фета - 200 г
+                        <br>
+                        червен винен оцет - 1 с.л.
+                        <br>
+                        зехтин - 5 - 6 с.л. студено пресован
+                        <br>
+                        риган - 1 ч.л. изсушен
+                        <br>
+                        морска сол
+                    </p>
+				<h4>Метод на приготвяне</h4>
+						<p>Хориатики - традиционна гръцка салата. Измийте добре доматите, краставицата и чушката.</p>
+                        <p>В салатиера нарежете доматите и краставицата на кубчета, почистете лука и чушката и ги нарежете на кръгчета.</p>
+                        <p>Смесете малко сол, зехтина, ригана и оцета и ги разбъркайте добре. Внимавайте със солта, тъй като сиренето Фета и маслините са солени.</p>
+                        <p>Гръцката салата винаги се сервира с фета сирене отгоре, поръсено с капки зехтин и изсушен риган.</p>
+                        <p>Прибавяте маслините и Фета сиренето отгоре и поръсете с дресинга.</p>
+                        
+				<button onclick="showMore()">Show more</button>
+			 </div>
+    </div>
+
+</body>

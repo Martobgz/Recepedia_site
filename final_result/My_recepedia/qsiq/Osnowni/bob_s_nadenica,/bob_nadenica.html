@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Рецепта за Боб с наденица</title>
+	<link rel="stylesheet" href="bob_nadenica.css">
+	<script>
+		function showMore() {
+			var content = document.getElementsByClassName("content")[0];
+			var button = content.getElementsByTagName("button")[0];
+			if (content.classList.contains("show-more")) {
+				content.classList.remove("show-more");
+				button.innerHTML = "Show More";
+			} else {
+				content.classList.add("show-more");
+				button.innerHTML = "Show Less";
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Рецепта за Боб с наденица</h1>
+	<img src="bob_s_nadenica.jpg" alt="There might be an error pls try again later!">
+	<div class="ingredients">
+		<h2>Начин на приготвяне:</h2>
+		<div class="content">
+		<div class="instructions">
+			<div class="content">
+				<h4>Съставки</h4>
+					<p><b>Съставки:</b>
+                        <br>
+                        боб - 2 чаени чаши зрял боб
+                        <br>
+                        наденица - 2 парчета
+                        <br>
+                        лук - 1 глава
+                        <br>
+                        моркови - 1 бр.
+                        <br>
+                        джоджен - 1 ч.л.
+                        <br>
+                        чубрица - 1 ч.л.
+                        <br>
+                        червен пипер - 1 с.л.
+                        <br>
+                        магданоз - няколко стръка
+                        <br>
+                        олио - 3, 4 с.л.
+                        <br>
+                        сол - на вкус
+                    </p>
+				<h4>Метод на приготвяне</h4>
+						<p>Бобът се сварява добре, като водата му се сменя след първите две кипвания.</p>
+                        <p>Ври около час на умерен огън. Зеленчуците се нарязват на дребно и заедно с подправките и мазнината се слагат в боба.</p>
+                        <p>Ястието се оставя да поври още 40 минути, след което наденицата се нарязва на едри парчета и се слага в манджата.</p>
+                        <p>Оставя се да ври още десетина минутки, докато омекне и наденицата и ястието е готово!</p>
+                        <p>Бобът се сервира поръсен със ситно нарязан пресен магданоз. А с една люта чушка, ще е още по сладкък.</p>
+				<button onclick="showMore()">Show more</button>
+			 </div>
+    </div>
+
+</body>

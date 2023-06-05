@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Рецепта за Шопска салата</title>
+	<link rel="stylesheet" href="shopska.css">
+	<script>
+		function showMore() {
+			var content = document.getElementsByClassName("content")[0];
+			var button = content.getElementsByTagName("button")[0];
+			if (content.classList.contains("show-more")) {
+				content.classList.remove("show-more");
+				button.innerHTML = "Show More";
+			} else {
+				content.classList.add("show-more");
+				button.innerHTML = "Show Less";
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Рецепта за Шопска салата</h1>
+	<img src="Chopska.jpg" alt="There might be an error pls try again later!">
+	<div class="ingredients">
+		<h2>Начин на приготвяне:</h2>
+		<div class="content">
+		<div class="instructions">
+			<div class="content">
+				<h4>Съставки</h4>
+					<p><b>Съставки:</b>
+                        <br>
+                        домати - 2 броя, зрели, червени
+                        <br>
+                        чушки - 2 брой зелена
+                        <br>
+                        краставици - 1 брой
+                        <br>
+                        лук - 1 глава, малка кромид
+                        <br>
+                        магданоз - за поръсване
+                        <br>
+                        маслини - 4 - 5 броя, по желание
+                        <br>
+                        сирене - 150 - 200 г
+                        <br>
+                        сол - 2 щипки
+                        <br>
+                        оцет - 1 с.л.
+                        <br>
+                        зехтин - 1 - 2 с.л.
+                    </p>
+				<h4>Метод на приготвяне</h4>
+						<p>Нарежете лука на тънки полумесеци и го намачкайте с малко сол в голяма купа. По желание може да използвате и червен лук. Нарежете доматите и краставиците на парчета и ги прибавете към лука.</p>
+                        <p>Чушките опечете, обелете и ги прибавете към салатата нарязани на малки линийки, след което и маслините. Разбъркайте салатата, посолете, залейте с дресинга от оцет и зехтин.</p>
+                        <p>Натрошете сиренето върху зеленчуците, поръсете с накълцан магданоз, гарнирайте с маслина по средата и поднесете. Салатата е достатъчна за 3-4 порции.</p>
+				<button onclick="showMore()">Show more</button>
+			 </div>
+    </div>
+
+</body>

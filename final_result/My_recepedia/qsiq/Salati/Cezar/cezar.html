@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Рецепта за салата Цезар</title>
+	<link rel="stylesheet" href="cezar.css">
+	<script>
+		function showMore() {
+			var content = document.getElementsByClassName("content")[0];
+			var button = content.getElementsByTagName("button")[0];
+			if (content.classList.contains("show-more")) {
+				content.classList.remove("show-more");
+				button.innerHTML = "Show More";
+			} else {
+				content.classList.add("show-more");
+				button.innerHTML = "Show Less";
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Рецепта за салата Цезар</h1>
+	<img src="salata-tsezar-s-pile-i-krutoni.jpg" alt="There might be an error pls try again later!">
+	<div class="ingredients">
+		<h2>Начин на приготвяне:</h2>
+		<div class="content">
+		<div class="instructions">
+			<div class="content">
+				<h4>Съставки</h4>
+					<p><b>Съставки:</b>
+                        <br>
+                        пилешки гърди - 2 бр.
+                        <br>
+                        айсберг
+                        <br>
+                        чери домати - около 200 г
+                        <br>
+                        краставици - 1 бр.
+                        <br>
+                        майонеза - 3 с.л.
+                        <br>
+                        кисело мляко - 3 с.л.
+                        <br>
+                        черен пипер
+                        <br>
+                        червен пипер
+                        <br>
+                        сол
+                        <br>
+                        лимонов сок
+                        <br>
+                        зехтин
+                        <br>
+                        крутони
+                        <br>
+                        пармезан
+                    </p>
+				<h4>Метод на приготвяне</h4>
+						<p>Пилешките гърди се овкусяват със сол и черен пипер и се изпичат на скара /или оребрен тиган/. След като изстинат се нарязват на хапки.</p>
+                        <p>Салатата се почиства, измива се и се накъсва. Прибавят се нарязаните краставица и чери доматки.</p>
+                        <p>Добавят се пилешките късчета и крутоните.</p>
+                        <p>В отделен съд се смесват киселото мляко, майонезата и лимоновия сок. Овкусява се с черен и червен пипер и сол.</p>
+                        <p>С готовия сос се овкусява салатата Цезар. Най-отгоре се настъргва пармезан.</p>
+                        
+				<button onclick="showMore()">Show more</button>
+			 </div>
+    </div>
+
+</body>

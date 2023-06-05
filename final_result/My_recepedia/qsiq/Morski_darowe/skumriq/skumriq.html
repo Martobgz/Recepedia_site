@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Рецепта за Скумрия на фурна</title>
+	<link rel="stylesheet" href="skumriq.css">
+	<script>
+		function showMore() {
+			var content = document.getElementsByClassName("content")[0];
+			var button = content.getElementsByTagName("button")[0];
+			if (content.classList.contains("show-more")) {
+				content.classList.remove("show-more");
+				button.innerHTML = "Show More";
+			} else {
+				content.classList.add("show-more");
+				button.innerHTML = "Show Less";
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Рецепта за Скумрия на фурна</h1>
+	<img src="download.jpg" alt="There might be an error pls try again later!">
+	<div class="ingredients">
+		<h2>Начин на приготвяне:</h2>
+		<div class="content">
+		<div class="instructions">
+			<div class="content">
+				<h4>Съставки</h4>
+					<p><b>Съставки:</b>
+                        <br>
+                        скумрия - 500 г
+                        <br>
+                        сол - на вкус
+                        <br>
+                        черен пипер
+                        <br>
+                        олио - за поръсване
+                    </p>
+				<h4>Метод на приготвяне</h4>
+						<p>Ако ползвате замразена скумрия, трябва да я оставите леко да отпусне, за да не стане на каша.</p>
+                        <p>Реже се главата, почистват се вътрешностите и се разделя на две половини. Поръсват се със сол и черен пипер.</p>
+                        <p>Нареждат се в тава с олио. Печем 30 минути в загрята фурна 200 градуса.</p>
+                        <p>Поднасяме с картофена салата и пресен магданоз! Бързо и вкусно!</p>
+				<button onclick="showMore()">Show more</button>
+			 </div>
+    </div>
+
+</body>
